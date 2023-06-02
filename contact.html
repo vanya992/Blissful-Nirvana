@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title> Blissful Nirvana | Contact </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Your name">
+        <meta name="description" content="Contact us in case of any unclearness">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f55b09a11a.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="data:;base64,=">
+    </head>
+    <body class="background-img">  
+        <header>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <section class="navigation">
+                    <div>
+                        <img src="images/logo.nobg.png" alt="logo" class="logo">
+                    </div>
+                    <div class="nav_meny">
+                        <ul>
+                            <li> <a href="index.html"> Home </a> </li> 
+                            <li> <a href="about.html"> About </a> </li>
+                            <li> <a href="contact.html"> Contact </a> </li>  
+                            <li> <a href="blog.html"> Blog </a> </li>    
+                        </ul>
+                    </div>
+                </section>
+            </nav>
+        </header>
+        <main>
+            <h1 class="contact">Contact </h1>
+            <section class="contact_display">
+                <div>
+                    <form>
+                        <div class="message_succes">Your message has been sent.</div>
+                        <label>Name</label>
+                        <input type="text" id="name" placeholder="5 characters at least">
+                        <div class="error-message" id="name_error">Enter a valid name of at least 5 characters</div>
+                        <label>Email</label>
+                        <input type="email" id="email" placeholder="Valid email address">
+                        <div class="error-message" id="email_error">Email address is not valid</div>
+                        <label>Subject</label>
+                        <input type="text" id="subject" placeholder="More than 15 characters">
+                        <div class="error-message" id="subject_error">Subject must contain at least 15 characters</div>
+                        <label>Message</label>
+                        <textarea id="message" rows="5" placeholder="More than 25 characters"></textarea>
+                        <div class="error-message" id="message_error">Your message is too short</div>
+                        <button class="send">Send</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer_box">
+                <div class="box1">
+                    <p> Our studio is located:</p>
+                    <p> Main Square 2B</p>
+                    <p> Fredrikstad</p>
+                </div>
+                <div class="box3">
+                   <p> Contact Us</p>
+                    <p> Read About Us </p>
+                    <p> Join our team </p>
+                </div>
+            </div>
+            <hr>
+            <p> Copyright &copy; </p>
+        </footer>
+        <script src="js/contact.js"></script>
+    </body>
+    </html>
+
