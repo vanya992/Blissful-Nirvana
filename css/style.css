@@ -1,0 +1,541 @@
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Macondo";
+    src: url(../fonts/macondo-swash-caps/MacondoSwashCaps-Regular.ttf) format("truetype");
+}
+
+:root {
+    --footer: 167, 196, 250;
+    --bg: #db20c7;
+    --slogan: #fc8b8f;
+    --error: #e02b2b;
+    --succes: #03c04a;
+    --nav: 250, 250, 250;
+    --box-bg: #c890f0;
+    --hover: 237, 197, 121; 
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    padding: 10px;
+}
+
+
+footer {
+    margin-top: auto;
+    background-color: rgba(var(--footer), 0.7);
+    width: 100%;
+}
+/* Navigation */
+
+.logo {
+    width: 80px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.navigation {
+    position: relative;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 1.5em;
+    width: 100%;
+    position: fixed;
+    top: 80px;
+    text-align: center;
+    transition: all .5s;
+    font-family: "Macondo";
+    background:rgba(1,1,1, 0.8);
+    display: none;
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: var(--box-bg);
+}
+
+.check {
+    display: none;
+}
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+#check:checked ~ .navigation ul {
+   display: block;
+}
+
+.background-img {
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.3)), url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+/* Contact form */
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Montserrat";
+}
+
+input,
+textarea {
+    border-radius: 2px;
+    border: none;
+    margin: 10px;
+}
+
+label {
+   margin: auto;
+   color: white;
+}
+
+input {
+    height: 30px;
+}
+
+.send {
+    padding: 5px 10px;
+    margin: 10px 100px;
+    font-family: "Montserrat";
+    background-color: rgba(250,250,250,0.3);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.send:hover {
+    font-size: 1em;
+    background-color:black ;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    font-family: "Macondo";
+    font-size: 3em;
+    font-weight: 300;
+    color: white;
+}
+
+
+.contact_display {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.contact_display > div {
+    margin: 10px;
+}
+
+.error-message {
+    display: none;
+    font-size: 0.8em;
+    justify-content: center;
+    margin: auto;
+    background-color: var(--error);
+    padding: 2px;
+    border-radius: 5%;
+}
+
+.message_succes {
+    display: none;
+    background-color: var(--succes);
+    border-radius: 3%;
+    margin: auto;
+    padding: 3px;
+}
+
+/* Footer */
+
+footer p {
+    font-family:  "Cormorant Garamond";
+    font-weight: 900;
+}
+
+.footer_box {
+    display: flex;
+    
+}
+
+footer p {
+    text-align: center;
+}
+
+.footer_box div {
+    display: grid;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.footer_img {
+    width: 20%;
+}
+
+hr {
+    width: 90%;
+}
+
+/* Index page */
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: var(--slogan);
+    width: 100%;
+    margin: 20px auto;
+    text-transform: uppercase;
+}
+
+.center {
+    position: relative;
+    height: 100%;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 0;
+}
+
+.inner {
+    list-style: none;
+    margin: 10px auto;
+    padding: 10px;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    overflow:hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.inner div {
+    padding: 10px;
+    margin: 15px;
+}
+
+.left-arrow,
+.right-arrow {
+    width: 20px;
+    height: 30px;
+    margin: auto;
+} 
+
+.inner section {
+    display: none; 
+  }
+  
+  .inner section.active_display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+    object-fit: cover;
+  }
+
+
+h2 {
+    font-family: "Cormorant Garamond";
+    text-align: center;
+    margin: auto;
+    color: var(--slogan);
+    width: 20%;
+    font-size: 3em;
+}
+
+.card {
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid white; 
+    border-radius: 10px;
+    background-color: var(--box-bg);
+    width: 250px;
+    height: 350px;
+  }
+
+
+.slide_img {
+    width: 80%;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.slide_img:hover {
+    width: 100%;
+    transform: scale(.9);
+}
+
+a h4 {
+    border: solid 1px;
+    margin: auto;
+    padding: 5px;
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
+    font-family: "Montserrat";
+    font-weight: unset;
+}
+
+a h4:hover {
+    background-color: var(--slogan);
+}
+
+
+/* About Page */
+
+.about h1 {
+    font-family: "Macondo";
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+
+}
+
+.about p {
+    font-family: "Montserrat";
+    color: white;
+    padding: 5px;
+    margin: 20px;
+    background-color: rgba(250,250,250,0.3);
+}
+
+/* Blog Page */
+
+
+h1, h2, h3 {
+    font-family: "Macondo";
+}
+
+.blogs {
+   display: flex;
+   flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.blog-box {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 300px;
+    height: 370px;
+    object-fit: cover;
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--box-bg);
+}
+
+.blog-box h3 {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+}
+
+
+.blog-box img {
+    border-radius: 5px;
+}
+
+.button {
+    border: 2px solid;
+    border-radius: 5px;;
+    font-size: 1em;
+    margin: 10px auto;
+    padding: 2px 5px;
+    text-align: center;
+    width: 50%;
+    font-family: "Montserrat";
+}
+
+.button:hover {
+    font-size: 1.2em;
+    background-color: var(--slogan);
+}
+
+#load-more {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 5px 15px;
+    font-size: 2em;
+    font-family: "Montserrat";
+    background-color: var(--box-bg);
+    border-style: none;
+    border-radius: 10px;
+}
+
+#load-more:hover {
+    font-size: 2.3em;
+    background-color: var(--slogan);
+}
+
+.sp_blog {
+    color: white;
+    font-family: "Montserrat";
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.sp_blog img {
+    margin: auto;
+    align-content: center;
+    width: 100%;
+}
+
+
+/* MODAL */
+
+.img_modal {
+    position: relative;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    object-fit: cover;
+}
+
+.modal-img {
+    position: absolute;
+    top: 0; left: 0;
+    background-color: rgba(0, 0, 0, .9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.modal-img span {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.hide-post {
+    display: none;
+}
+
+
+@media (min-width: 951px) {
+
+/* Navigation */
+
+.logo {
+    width: 100px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    top: 5px;
+    text-align: center;
+}
+    .nav_meny ul li {
+        display: inline-block;
+        padding: 10px;
+        color: white;
+    }
+
+    .checkbtn {
+        display: none;
+    }
+
+
+    nav ul {
+        display: block;
+        width: auto;
+        position: static;
+        background: none;
+        transition: none;
+        text-align: right;
+        top: 10px;
+    }
+
+/* Blog Page */ 
+
+.box {
+    margin: 10px;
+}
+.blogs {
+    width: 70%;
+    margin: auto;
+}
+.sp_blog, .about {
+    width: 60%;
+    align-items: center;
+    margin: auto;
+}
+
+.center {
+    display: block;
+}
+
+.slogan {
+    font-size: 3em;
+}
+}
