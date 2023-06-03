@@ -57,6 +57,9 @@ footer {
     margin-top: 10px;
 }
 
+.nav_meny {
+    align-self: center;
+}
 .navigation {
     position: relative;
     width: 100%;
@@ -578,6 +581,7 @@ h1, h2, h3 {
         display: inline-block;
         padding: 10px;
         color: white;
+        align-items: center;
     }
 
     .checkbtn {
