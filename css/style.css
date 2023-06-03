@@ -158,7 +158,6 @@ input {
 }
 
 .send:hover {
-    font-size: 1em;
     background-color:black ;
 }
 
@@ -292,7 +291,6 @@ hr {
     overflow:hidden;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     
 }
 
@@ -353,11 +351,11 @@ h2 {
     max-width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
+    transition: all .3s ease-in-out;
 }
 
 .slide_img:hover {
     width: 100%;
-    transform: scale(.9);
 }
 
 a h4 {
@@ -483,7 +481,9 @@ h1, h2, h3 {
     font-family: "Montserrat";
     margin: auto;
     padding: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
 
 .sp_blog img {
