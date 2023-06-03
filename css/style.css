@@ -224,12 +224,9 @@ footer .box3 {
     gap: 1em;
 }
 
-.footer_img {
-    width: 200px;
-}
 
 .box2 img {
-    
+    width: 20%;
 }
 
 hr {
