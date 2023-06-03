@@ -224,14 +224,19 @@ hr {
 }
 
 /* Index page */
+.homepage-img {
+    position: relative;
+}
 
 .slogan {
+    position: absolute;
     display: flex;
     justify-content: center;
     font-size: 2em;
-    color: var(--slogan);
     width: 100%;
-    margin: 100px auto;
+    margin: auto;
+    text-align: center;
+    margin-top: 250px;
     text-transform: uppercase;
 }
 
@@ -242,6 +247,7 @@ hr {
     object-position: middle;
     padding: 20px 0;
     margin-bottom: 20px;
+    text-align: center;
 
 }
 
@@ -521,6 +527,7 @@ h1, h2, h3 {
     text-align: center;
 }
     .nav_meny ul li {
+       
         display: inline-block;
         padding: 10px;
         color: white;
@@ -533,7 +540,7 @@ h1, h2, h3 {
     nav ul {
         display: block;
         width: auto;
-        position: static;
+        position: sticky;
         background: none;
         transition: none;
         text-align: right;
