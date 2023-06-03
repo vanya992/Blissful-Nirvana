@@ -534,8 +534,8 @@ h1, h2, h3 {
 
 @media (max-width: 501px) {
     .card {
-        width: 100px;
-        height: 200px;
+        width: 90px;
+        height: 190px;
     }
 
     .card h3 {
