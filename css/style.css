@@ -519,11 +519,19 @@ h1, h2, h3 {
     display: none;
 }
 
-
-@media (max-width: 644px) {
-   .card {
+@media (max-width: 503px) {
+    .card {
         width: 100px;
         height: 200px;
+    }
+    .card h4 {
+        font-size: .5em;
+    }
+}
+@media (min-width: 504px) and (max-width: 644px) {
+   .card {
+        width: 150px;
+        height: 250px;
     }
     .card h4 {
         font-size: .8em;
