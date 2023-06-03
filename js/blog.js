@@ -2,7 +2,7 @@ const blogDisplay = document.querySelector(".blogs");
 const loadMoreButton = document.getElementById("load-more");
 let currentItems = 10;
 
-const url = "https://blissfulnirvana.simplygreat.no/wp-json/wp/v2/posts/${id}?_embed=wp:featuredmedia?per_page=100";
+const url = "https://blissfulnirvana.simplygreat.no/wp-json/wp/v2/posts?_embed=wp:featuredmedia?per_page=100";
 
 async function displayPosts() {
     const response = await fetch(url);
