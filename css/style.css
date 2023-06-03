@@ -86,7 +86,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--box-bg);
+    color: rgba(var(--footer));
 }
 
 .check {
@@ -504,7 +504,9 @@ h1, h2, h3 {
     .checkbtn {
         display: none;
     }
-
+.blog-box {
+    background-color: #fc8b8f;
+}
 
     nav ul {
         display: block;
@@ -529,6 +531,10 @@ h1, h2, h3 {
     width: 60%;
     align-items: center;
     margin: auto;
+}
+
+.sp_blog img {
+
 }
 
 .center {
