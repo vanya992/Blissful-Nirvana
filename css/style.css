@@ -524,6 +524,10 @@ h1, h2, h3 {
         width: 100px;
         height: 200px;
     }
+
+    .card h3 {
+        font-size: .7em;
+    }
     .card h4 {
         font-size: .5em;
     }
@@ -532,6 +536,9 @@ h1, h2, h3 {
    .card {
         width: 150px;
         height: 250px;
+    }
+    .card h3 {
+        font-size: 1em;
     }
     .card h4 {
         font-size: .8em;
