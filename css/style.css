@@ -226,7 +226,8 @@ footer .box3 {
 
 
 .box2 img {
-    width: 20%;
+    width: 50%;
+    margin: auto;
 }
 
 hr {
