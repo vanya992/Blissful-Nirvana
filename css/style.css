@@ -521,15 +521,15 @@ h1, h2, h3 {
 
 @media (max-width: 503px) {
     .card {
-        width: 150px;
-        height: 250px;
+        width: 120px;
+        height: 220px;
     }
 }
 
 @media (max-width: 644px) {
     .card {
         width: 180px;
-        height: 280px;
+        height: 280px; 
     }
 }
 @media (min-width: 951px) {
