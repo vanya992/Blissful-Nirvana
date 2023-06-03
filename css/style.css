@@ -519,9 +519,6 @@ h1, h2, h3 {
     display: none;
 }
 
-@media (max-width: 503px) {
-    
-}
 
 @media (max-width: 644px) {
    .card {
