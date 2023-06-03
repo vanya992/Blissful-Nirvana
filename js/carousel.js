@@ -3,7 +3,7 @@ const carouselContainerMobile = document.querySelector(".mobile")
 
 let currentSlide = 1;
 
-const url = "http://blissfulnirvanano.local/wp-json/wp/v2/posts?_embed=wp:featuredmedia&per_page=100";
+const url = "https://blissfulnirvana.simplygreat.no/wp-json/wp/v2/posts?_embed=wp:featuredmedia?per_page=100";
 
 async function detailed() {
     const response = await fetch(url);
@@ -11,6 +11,8 @@ async function detailed() {
     const post = results;
 
     console.log(post);
+
+    
 
     carouselContainer.innerHTML += `
   <div class="wrapper">

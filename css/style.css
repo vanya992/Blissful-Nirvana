@@ -354,12 +354,25 @@ a h4:hover {
 
 }
 
+.about section div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+}
+
 .about p {
     font-family: "Montserrat";
     color: white;
-    padding: 5px;
-    margin: 20px;
-    background-color: rgba(250,250,250,0.3);
+    padding: 15px;
+    margin: auto;
+}
+
+.about-img {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
 }
 
 /* Blog Page */
@@ -450,6 +463,8 @@ h1, h2, h3 {
 /* MODAL */
 
 .img_modal {
+    width: 500px;
+    height: 400px;
     position: relative;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
@@ -543,5 +558,16 @@ h1, h2, h3 {
 
 .slogan {
     font-size: 3em;
+}
+
+.about-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.about-img  img {
+    padding: 15px;
+    margin: 20px;
 }
 }
