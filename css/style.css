@@ -69,6 +69,7 @@ nav ul {
     list-style: none;
     font-size: 1.5em;
     width: 100%;
+    height: 100%;
     position: fixed;
     top: 40px;
     text-align: center;
