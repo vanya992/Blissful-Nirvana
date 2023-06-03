@@ -531,6 +531,9 @@ h1, h2, h3 {
         width: 180px;
         height: 280px; 
     }
+    .card h4 {
+        font-size: .8em;
+    }
 }
 @media (min-width: 951px) {
 
