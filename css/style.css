@@ -532,7 +532,7 @@ h1, h2, h3 {
         height: 280px; 
     }
     .card h4 {
-        font-size: .8em;
+        font-size: .6em;
     }
 }
 @media (min-width: 951px) {
@@ -550,7 +550,6 @@ h1, h2, h3 {
     text-align: center;
 }
     .nav_meny ul li {
-       
         display: inline-block;
         padding: 10px;
         color: white;
