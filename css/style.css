@@ -403,7 +403,7 @@ h1, h2, h3 {
 .blog-box {
     border: 2px solid white;
     border-radius: 10px;
-    width: 300px;
+    width: 270px;
     height: 370px;
     object-fit: cover;
     margin: 20px;
@@ -445,8 +445,8 @@ h1, h2, h3 {
     padding: 5px 15px;
     font-size: 2em;
     font-family: "Montserrat";
-    background-color: var(--box-bg);
-    border-style: none;
+    background-color: rgba(250,250,250,0.3);
+    border-style: 2px black;
     border-radius: 10px;
 }
 
@@ -529,9 +529,6 @@ h1, h2, h3 {
     .checkbtn {
         display: none;
     }
-.blog-box {
-    background-color: #fc8b8f;
-}
 
     nav ul {
         display: block;
@@ -558,9 +555,6 @@ h1, h2, h3 {
     margin: auto;
 }
 
-.sp_blog img {
-
-}
 
 .center {
     display: block;
