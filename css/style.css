@@ -519,7 +519,7 @@ h1, h2, h3 {
     display: none;
 }
 
-@media (max-width: 503px) {
+@media (max-width: 501px) {
     .card {
         width: 100px;
         height: 200px;
@@ -528,7 +528,7 @@ h1, h2, h3 {
         font-size: .5em;
     }
 }
-@media (min-width: 504px) and (max-width: 644px) {
+@media (min-width: 502px) and (max-width: 644px) {
    .card {
         width: 150px;
         height: 250px;
