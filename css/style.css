@@ -519,7 +519,12 @@ h1, h2, h3 {
     display: none;
 }
 
-
+@media (max-width: 644px) {
+    .card {
+        width: 180px;
+        height: 280px;
+    }
+}
 @media (min-width: 951px) {
 
 /* Navigation */
