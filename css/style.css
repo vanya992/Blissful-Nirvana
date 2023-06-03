@@ -528,6 +528,10 @@ h1, h2, h3 {
     display: none;
 }
 
+.background-black {
+    background-color: black;;
+}
+
 @media (max-width: 501px) {
     .card {
         width: 120px;
