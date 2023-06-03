@@ -231,8 +231,18 @@ hr {
     font-size: 2em;
     color: var(--slogan);
     width: 100%;
-    margin: 20px auto;
+    margin: 100px auto;
     text-transform: uppercase;
+}
+
+.garden-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: middle;
+    padding: 20px 0;
+    margin-bottom: 20px;
+
 }
 
 .center {
@@ -308,7 +318,7 @@ h2 {
     text-align: center;
     border: 1px solid white; 
     border-radius: 10px;
-    background-color: var(--box-bg);
+    background-color: rgba(250,250,250,0.3);
     width: 250px;
     height: 350px;
   }
@@ -398,7 +408,7 @@ h1, h2, h3 {
     object-fit: cover;
     margin: 20px;
     padding: 20px;
-    background-color: var(--box-bg);
+    background-color: rgba(250,250,250,0.3);
 }
 
 .blog-box h3 {
