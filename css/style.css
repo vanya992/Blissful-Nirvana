@@ -60,14 +60,16 @@ footer {
 .navigation {
     position: relative;
     width: 100%;
+    text-align: center;
 }
 
 nav ul {
+    position: absolute;
     list-style: none;
     font-size: 1.5em;
     width: 100%;
     position: fixed;
-    top: 80px;
+    top: 40px;
     text-align: center;
     transition: all .5s;
     font-family: "Macondo";
