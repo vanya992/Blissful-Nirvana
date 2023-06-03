@@ -97,7 +97,7 @@ nav a:hover {
     color: white;
     float: right;
     line-height: 80px;
-    margin-right: 40px;
+    margin-right: 10px;
     cursor: pointer;
 }
 
@@ -251,6 +251,7 @@ hr {
 
 }
 
+
 .center {
     position: relative;
     height: 100%;
@@ -389,6 +390,7 @@ a h4:hover {
     width: 90%;
     margin: 10px;
     padding: 10px;
+    overflow: hidden;
 }
 
 /* Blog Page */
@@ -540,7 +542,7 @@ h1, h2, h3 {
     nav ul {
         display: block;
         width: auto;
-        position: sticky;
+        position: static;
         background: none;
         transition: none;
         text-align: right;
