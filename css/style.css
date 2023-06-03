@@ -242,16 +242,7 @@ hr {
     text-transform: uppercase;
 }
 
-.garden-img {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-    object-position: middle;
-    padding: 20px 0;
-    margin-bottom: 20px;
-    text-align: center;
 
-}
 
 
 .center {
