@@ -7,7 +7,7 @@ const id = urlParams.get("id");
 
 
 async function getBlogDetailed() {
-      const url = `http://blissfulnirvanano.local/wp-json/wp/v2/posts/${id}?_embed=wp:featuredmedia`;
+      const url = `https://blissfulnirvanano.local/wp-json/wp/v2/posts/${id}?_embed=wp:featuredmedia`;
       const response = await fetch(url);
       const results = await response.json();
       const blog = results;

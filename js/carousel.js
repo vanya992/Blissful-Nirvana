@@ -3,7 +3,7 @@ const carouselContainerMobile = document.querySelector(".mobile")
 
 let currentSlide = 1;
 
-const url = "http://blissfulnirvanano.local/wp-json/wp/v2/posts?_embed=wp:featuredmedia&per_page=100";
+const url = "https://blissfulnirvanano.local/wp-json/wp/v2/posts?_embed=wp:featuredmedia&per_page=100";
 
 async function detailed() {
     const response = await fetch(url);
@@ -18,66 +18,66 @@ async function detailed() {
   <button class="left-arrow"></button>
   <section class="active_display first">
       <div class="card">
-        <img src="http://blissfulnirvanano.local/wp-content/uploads/2023/05/acroyoga-scaled.jpg" class="slide_img">
+        <img src="https://blissfulnirvanano.local/wp-content/uploads/2023/05/acroyoga-scaled.jpg" class="slide_img">
         <h3>${post[0].title.rendered}</h3>
         <a href="blogspecific.html?id=${post[0].id}"><h4>Read More</h4></a>
       </div>
       <div class="card">
-        <img src="http://blissfulnirvanano.local/wp-content/uploads/2023/05/poweryoga.jpg" class="slide_img">
+        <img src="https://blissfulnirvanano.local/wp-content/uploads/2023/05/poweryoga.jpg" class="slide_img">
         <h3>${post[1].title.rendered}</h3>
         <a href="blogspecific.html?id=${post[0].id}"> <h4>Read More</h4></a>
       </div>
       <div class="card">
-        <img src="http://blissfulnirvanano.local/wp-content/uploads/2023/05/yoga1-scaled.jpg" class="slide_img">
+        <img src="https://blissfulnirvanano.local/wp-content/uploads/2023/05/yoga1-scaled.jpg" class="slide_img">
           <h3>${post[2].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[0].id}"><h4>Read More</h4></a>
       </div>
       <div class="card">
-        <img src="http://blissfulnirvanano.local/wp-content/uploads/2023/05/yoga3s2-scaled.jpg" class="slide_img">
+        <img src="https://blissfulnirvanano.local/wp-content/uploads/2023/05/yoga3s2-scaled.jpg" class="slide_img">
           <h3>${post[3].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[0].id}"><h4>Read More</h4></a>
       </div>
       </section>
       <section class="second">
       <div class="card">
-      <img src="http://blissfulnirvanano.local/wp-content/uploads/2023/05/yoga2-scaled.jpg" class="slide_img">
+      <img src="https://blissfulnirvanano.local/wp-content/uploads/2023/05/yoga2-scaled.jpg" class="slide_img">
           <h3>${post[4].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[0].id}"><h4>Read More</h4></a>
       </div>
       <div class="card">
-          <img src="http://blissfulnirvanano.local/wp-content/uploads/2023/05/kundalini-scaled.jpg" class="slide_img">
+          <img src="https://blissfulnirvanano.local/wp-content/uploads/2023/05/kundalini-scaled.jpg" class="slide_img">
           <h3>${post[5].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[0].id}"><h4>Read More</h4></a>
       </div>
       <div class="card">
-          <img src="http://blissfulnirvanano.local/wp-content/uploads/2023/05/bikramyoga.webp" class="slide_img">
+          <img src="https://blissfulnirvanano.local/wp-content/uploads/2023/05/bikramyoga.webp" class="slide_img">
           <h3>${post[6].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[0].id}"><h4>Read More</h4></a>
       </div>
       <div class="card">
-          <img src="http://blissfulnirvanano.local/wp-content/uploads/2023/05/om-scaled.jpg" class="slide_img">
+          <img src="https://blissfulnirvanano.local/wp-content/uploads/2023/05/om-scaled.jpg" class="slide_img">
           <h3>${post[7].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[0].id}"><h4>Read More</h4></a>
       </div>
       </section>
       <section class="third">
       <div class="card">
-          <img src="http://blissfulnirvanano.local/wp-content/uploads/2023/05/yogablock.webp" class="slide_img">
+          <img src="https://blissfulnirvanano.local/wp-content/uploads/2023/05/yogablock.webp" class="slide_img">
           <h3>${post[8].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[0].id}"><h4>Read More</h4></a>
       </div>
       <div class="card">
-          <img src="http://blissfulnirvanano.local/wp-content/uploads/2023/05/om2-scaled.jpg" class="slide_img">
+          <img src="https://blissfulnirvanano.local/wp-content/uploads/2023/05/om2-scaled.jpg" class="slide_img">
           <h3>${post[9].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[0].id}"><h4>Read More</h4></a>
       </div>
       <div class="card">
-          <img src="http://blissfulnirvanano.local/wp-content/uploads/2023/05/heartcentered-scaled.jpg" class="slide_img">
+          <img src="https://blissfulnirvanano.local/wp-content/uploads/2023/05/heartcentered-scaled.jpg" class="slide_img">
           <h3>${post[10].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[0].id}"><h4>Read More</h4></a>
       </div>
       <div class="card">
-          <img src="http://blissfulnirvanano.local/wp-content/uploads/2023/05/manyogi-scaled.jpg" class="slide_img">
+          <img src="https://blissfulnirvanano.local/wp-content/uploads/2023/05/manyogi-scaled.jpg" class="slide_img">
           <h3>${post[11].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[0].id}"><h4>Read More</h4></a>
       </div>
