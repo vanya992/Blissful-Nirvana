@@ -648,3 +648,9 @@ h1, h2, h3 {
 }
 
 }
+
+@media (min-width: 1440px) and (max-width: 1800px) {
+    body {
+        width: 90%;
+}}
+
