@@ -651,3 +651,8 @@ h1, h2, h3 {
 
 }
 
+@media (min-height: 1200px) and (max-height: 1620px) {
+    .inner {
+        width: 100%;
+    }
+}
