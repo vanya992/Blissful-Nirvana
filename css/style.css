@@ -234,6 +234,10 @@ footer .box3 {
     margin: auto;
 }
 
+.f_home {
+    color: white;
+}
+
 hr {
     width: 90%;
 }
@@ -372,8 +376,9 @@ a h4 {
 }
 
 a h4:hover {
-    background-color: var(--slogan);
+    background-color: var(--footer);
 }
+
 
 
 /* About Page */
@@ -458,7 +463,7 @@ h1, h2, h3 {
 
 .button:hover {
     font-size: 1.2em;
-    background-color: var(--slogan);
+    background-color: var(--footer);
 }
 
 #load-more {
