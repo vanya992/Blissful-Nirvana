@@ -551,6 +551,7 @@ h1, h2, h3 {
     }
     .card h4 {
         font-size: .5em;
+        color: white;
     }
 }
 @media (min-width: 502px) and (max-width: 684px) {
@@ -560,16 +561,18 @@ h1, h2, h3 {
     }
     .card h3 {
         font-size: 1em;
+        color: white;
     }
     .card h4 {
         font-size: .8em;
+        color: white;
     }
 }
 
 @media (min-width: 951px) {
 
     body {
-        width: 70%;
+        width: 80%;
     }
 
 /* Navigation */
