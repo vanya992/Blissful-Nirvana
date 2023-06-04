@@ -547,7 +547,7 @@ h1, h2, h3 {
         font-size: .5em;
     }
 }
-@media (min-width: 502px) and (max-width: 644px) {
+@media (min-width: 502px) and (max-width: 684px) {
    .card {
         width: 150px;
         height: 250px;
