@@ -81,9 +81,8 @@ async function detailed() {
           <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/senioryoga-scaled.jpg" class="slide_img">
           <h3>${post[11].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[11].id}"><h4>Read More</h4></a>
-      </div>
+      </div></section> 
       <button class="right-arrow"> <i class="fas fa-caret-left"></i> </button>
-      </section> 
       </div>
        </div>`;
     
