@@ -19,66 +19,66 @@ async function detailed() {
   <button class="left-arrow"> <i class="fas fa-caret-left"></i></button>
   <section class="active_display first">
       <div class="card">
-        <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/ruslan-zh-i_DN1jo1iTU-unsplash-scaled.jpg" class="slide_img">
+        <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/ruslan-zh-i_DN1jo1iTU-unsplash-scaled.jpg" class="slide_img" alt="yoga style, yoga pose">
         <h3>${post[0].title.rendered}</h3>
         <a href="blogspecific.html?id=${post[0].id}"><h4>Read More</h4></a>
       </div>
       <div class="card">
-        <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/lutchenca-medeiros-wsnwDJslMF8-unsplash-scaled.jpg" class="slide_img">
+        <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/lutchenca-medeiros-wsnwDJslMF8-unsplash-scaled.jpg" class="slide_img" alt="yoga style, yoga pose">
         <h3>${post[1].title.rendered}</h3>
         <a href="blogspecific.html?id=${post[1].id}"> <h4>Read More</h4></a>
       </div>
       <div class="card">
-        <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/yoga1-scaled.jpg" class="slide_img">
+        <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/yoga1-scaled.jpg" class="slide_img" alt="yoga style, yoga pose">
           <h3>${post[2].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[2].id}"><h4>Read More</h4></a>
       </div>
       <div class="card">
-        <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/yoga2-scaled.jpg" class="slide_img">
+        <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/yoga2-scaled.jpg" class="slide_img" alt="yoga style, yoga pose">
           <h3>${post[3].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[3].id}"><h4>Read More</h4></a>
       </div>
       </section>
       <section class="second">
       <div class="card">
-      <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/om-scaled.jpg" class="slide_img">
+      <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/om-scaled.jpg" class="slide_img" alt="yoga style, yoga pose">
           <h3>${post[4].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[4].id}"><h4>Read More</h4></a>
       </div>
       <div class="card">
-          <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/kundalini.jpg" class="slide_img">
+          <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/kundalini.jpg" class="slide_img" alt="yoga style, yoga pose">
           <h3>${post[5].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[5].id}"><h4>Read More</h4></a>
       </div>
       <div class="card">
-          <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/Hot_Yoga_1296x728-header-1296x728-1.webp" class="slide_img">
+          <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/Hot_Yoga_1296x728-header-1296x728-1.webp" class="slide_img" alt="yoga style, yoga pose">
           <h3>${post[6].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[6].id}"><h4>Read More</h4></a>
       </div>
       <div class="card">
-          <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/yoga3s-scaled.jpg" class="slide_img">
+          <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/yoga3s-scaled.jpg" class="slide_img" alt="yoga style, yoga pose">
           <h3>${post[7].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[7].id}"><h4>Read More</h4></a>
       </div>
       </section>
       <section class="third">
       <div class="card">
-          <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/sonnie-hiles-mubVauq1Esg-unsplash-scaled.jpg" class="slide_img">
+          <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/sonnie-hiles-mubVauq1Esg-unsplash-scaled.jpg" class="slide_img" alt="yoga style, yoga pose">
           <h3>${post[8].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[8].id}"><h4>Read More</h4></a>
       </div>
       <div class="card">
-          <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/heartcentered-scaled.jpg" class="slide_img">
+          <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/heartcentered-scaled.jpg" class="slide_img" alt="yoga style, yoga pose">
           <h3>${post[9].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[9].id}"><h4>Read More</h4></a>
       </div>
       <div class="card">
-          <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/manyogi-scaled.jpg" class="slide_img">
+          <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/manyogi-scaled.jpg" class="slide_img" alt="yoga style, yoga pose">
           <h3>${post[10].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[10].id}"><h4>Read More</h4></a>
       </div>
       <div class="card">
-          <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/senioryoga-scaled.jpg" class="slide_img">
+          <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/senioryoga-scaled.jpg" class="slide_img" alt="yoga style, yoga pose">
           <h3>${post[11].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[11].id}"><h4>Read More</h4></a>
       </div></section> 
