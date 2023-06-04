@@ -540,6 +540,7 @@ h1, h2, h3 {
 }
 
 @media (max-width: 501px) {
+   
     .card {
         width: 90px;
         height: 190px;
@@ -569,8 +570,11 @@ h1, h2, h3 {
     }
 }
 
-@media (min-width: 951px) {
+@media (min-width: 981px) {
 
+    body {
+        width: 90%;
+    }
 
 /* Navigation */
 
@@ -646,7 +650,5 @@ h1, h2, h3 {
 }
 
 @media (min-width: 1206px) and (max-width: 1610px) {
-    body {
-        width: 70%;
-    }
+   
 }
