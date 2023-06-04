@@ -135,7 +135,7 @@ input,
 textarea {
     border-radius: 2px;
     border: none;
-    margin: 10px;
+    margin: auto;
 }
 
 label {
