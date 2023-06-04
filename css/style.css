@@ -644,13 +644,3 @@ h1, h2, h3 {
 }
 
 }
-
-@media (min-width: 1400px) and (max-width: 1840px) {
-    body {
-        width: 90%;
-}
-    .card {
-        margin: 35px;
-    }
-}
-
