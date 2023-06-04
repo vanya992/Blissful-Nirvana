@@ -21,7 +21,7 @@ async function displayPosts() {
             const title = postItem.title.rendered;
             const alt = featuredMedia.alt_text;
       
-            blogDisplay.innerHTML += `<div class="blog-box"><img src="${imageUrl}" class="slide_img" alt="${alt}"><h3>${title}</h3><a href="blogspecific.html?id=${postItem.id}"<h4 class="button">Read More</h4><a/></div>`;
+            blogDisplay.innerHTML += `<div class="blog-box"><a href="blogspecific.html?id=${postItem.id}"><img src="${imageUrl}" class="slide_img" alt="${alt}"><h3>${title}</h3><h4 class="button">Read More</h4><a/></div>`;
           }
         
     }
