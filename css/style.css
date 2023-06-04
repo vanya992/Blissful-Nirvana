@@ -492,13 +492,6 @@ h1, h2, h3 {
     align-content: center;
 }
 
-.modal-body {
-    position: relative;
-}
-
-.modal-body nav {
-    width: 70%;
-}
 
 
 /* MODAL */
