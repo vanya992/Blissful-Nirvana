@@ -82,7 +82,7 @@ async function detailed() {
           <h3>${post[11].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[11].id}"><h4>Read More</h4></a>
       </div></section> 
-      <button class="right-arrow"> <i class="fas fa-caret-left"></i> </button>
+      <button class="right-arrow"> <i class="fas fa-caret-right"></i> </button>
       </div>
        </div>`;
     
