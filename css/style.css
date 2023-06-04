@@ -494,7 +494,6 @@ h1, h2, h3 {
 
 .modal-body {
     position: relative;
-    width: 100%;
 }
 
 .modal-body nav {
@@ -644,5 +643,10 @@ h1, h2, h3 {
 .about-img  img {
     padding: 15px;
     margin: 20px;
+}
+
+.modal-body nav {
+    width: 70%;
+    margin: auto;
 }
 }
