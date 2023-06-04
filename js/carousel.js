@@ -16,7 +16,7 @@ async function detailed() {
     carouselContainer.innerHTML += `
   <div class="wrapper">
   <div class="inner">
-  <button class="left-arrow"> <i class="fas fa-caret-left"></i></button>
+  <button class="left-arrow"> <i class="fas fa-caret-left"></i> <span class="hidden">Hidden</span></button>
   <section class="active_display first">
       <div class="card">
         <img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/ruslan-zh-i_DN1jo1iTU-unsplash-scaled.jpg" class="slide_img" alt="yoga style, yoga pose">
@@ -82,7 +82,7 @@ async function detailed() {
           <h3>${post[11].title.rendered}</h3>
           <a href="blogspecific.html?id=${post[11].id}"><h4>Read More</h4></a>
       </div></section> 
-      <button class="right-arrow"> <i class="fas fa-caret-right"></i> </button>
+      <button class="right-arrow"> <i class="fas fa-caret-right"></i> <span class="hidden">Hidden</span></button>
       </div>
        </div>`;
     

@@ -277,7 +277,9 @@ hr {
     text-align: center;
 
 }
-
+.hidden {
+    display: none;
+}
 
 .center {
     position: relative;
