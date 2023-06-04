@@ -488,8 +488,14 @@ h1, h2, h3 {
 }
 
 .sp_blog img {
+    display: flex;
     margin: auto;
     align-content: center;
+}
+
+.sp_title {
+    font-size: 2em;
+    width: 30%;
 }
 
 
@@ -616,6 +622,9 @@ h1, h2, h3 {
     width: 60%;
     align-items: center;
     margin: auto;
+}
+.sp_title {
+    font-size: 3em;
 }
 
 

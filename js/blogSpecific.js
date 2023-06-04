@@ -23,7 +23,7 @@ async function getBlogDetailed() {
     const newPageTitle = `Blissful Nirvana | ${blog.title.rendered}`;
     document.title = newPageTitle;
   
-  blogPost.innerHTML = `<h2>${blog.title.rendered}</h2><div class="sp_blog"><div><img src="${imageUrl}" alt="${altText}" class="img"></div><div><p>${blog.content.rendered}</p></div></div>`;
+  blogPost.innerHTML = `<h2 class="sp_title">${blog.title.rendered}</h2><div class="sp_blog"><div><img src="${imageUrl}" alt="${altText}" class="img"></div><div><p>${blog.content.rendered}</p></div></div>`;
 
 // Reference for modal image: https://www.youtube.com/watch?v=QghhoJBdw7A
 
