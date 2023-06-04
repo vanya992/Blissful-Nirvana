@@ -1,5 +1,7 @@
 const blogPost = document.querySelector(".blog");
-const modalImg = document.querySelector(".modal-img")
+const modalDisplay = document.querySelector(".modal-img");
+const modalImage = document.querySelector(".modal-img img");
+
 
 const urlParams = new URLSearchParams(document.location.search);
 const id = urlParams.get("id");
@@ -25,14 +27,21 @@ async function getBlogDetailed() {
 
 // Reference for modal image: https://www.youtube.com/watch?v=QghhoJBdw7A
 
-  modalImg.innerHTML = `<span>&times;</span><img src=${imageUrl} class="img_modal">`;
+  modalDisplay.innerHTML = `<span>&times;</span><img src=${imageUrl} class="img_modal">`;
+
 
   document.querySelector(".sp_blog img").onclick = () => {
-    document.querySelector(".modal-img").style.display = "block";
+    modalDisplay.style.display = "block";
   }
 
+  modalDisplay.addEventListener("click", (event) => {
+    if (event.target === modalDisplay || event.target === modalImage) {
+      modalDisplay.style.display = "none";
+    }
+  })
+
   document.querySelector(".modal-img span").onclick = () => {
-    document.querySelector(".modal-img").style.display = "none";
+    modalDisplay.style.display = "none";
   }
 }
 
