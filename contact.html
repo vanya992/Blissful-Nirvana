@@ -49,16 +49,16 @@
                 <div>
                     <form>
                         <div class="message_succes">Your message has been sent.</div>
-                        <label>Name <span class="hidden">Hidden</span> </label>
+                        <label aria-label="name">Name </label>
                         <input type="text" id="name" placeholder="5 characters at least">
                         <div class="error-message" id="name_error">Enter a valid name of at least 5 characters</div>
-                        <label>  Email<span class="hidden">Hidden</span> </label>
+                        <label aria-label="email">  Email</label>
                         <input type="email" id="email" placeholder="Valid email address">
                         <div class="error-message" id="email_error">Email address is not valid</div>
-                        <label> Subject <span class="hidden">Hidden</span> </label>
+                        <label aria-label="subject"> Subject <span class="hidden">Hidden</span> </label>
                         <input type="text" id="subject" placeholder="More than 15 characters">
                         <div class="error-message" id="subject_error">Subject must contain at least 15 characters</div>
-                        <label> Message <span class="hidden">Hidden</span> </label>
+                        <label aria-label="message"> Message <span class="hidden">Hidden</span> </label>
                         <textarea id="message" rows="5" placeholder="More than 25 characters"></textarea>
                         <div class="error-message" id="message_error">Your message is too short</div>
                         <button class="send"> <span class="hidden">Hidden</span> Send</button>
