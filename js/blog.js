@@ -33,7 +33,7 @@ async function displayPosts() {
             const imageUrl = featuredMedia.media_details.sizes.medium.source_url;
             const title = postItem.title.rendered;
       
-            blogDisplay.innerHTML += `<div class="blog-box hide-post"><img src="${imageUrl}" class="slide_img"><h3>${title}</h3><a href="blogspecific.html?id=${postItem.id}"<div class="button">Read More</div><a/></div>`;
+            blogDisplay.innerHTML += `<div class="blog-box hide-post"><img src="${imageUrl}" class="slide_img" alt="${alt}"><h3>${title}</h3><a href="blogspecific.html?id=${postItem.id}"<div class="button">Read More</div><a/></div>`;
           }
         }
     
