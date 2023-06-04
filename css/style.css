@@ -264,7 +264,8 @@ hr {
     font-size: 3em;
     width: 100%;
     margin: auto;
-    text-align: center;
+    text-align: top;
+    top: 20px;
     margin-top: 250px;
     text-transform: uppercase;
 }
