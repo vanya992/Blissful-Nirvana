@@ -655,5 +655,10 @@ h1, h2, h3 {
     body {
         width: 70%;
     }
-   
+}
+
+@media (min-height: 1405px) and (max-height: 1820px) {
+    .body {
+        width: 80%;
+    }
 }
