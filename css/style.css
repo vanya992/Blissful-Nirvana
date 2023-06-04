@@ -214,9 +214,6 @@ footer p {
     
 }
 
-footer p {
-    text-align: center;
-}
 
 .footer_box div {
     display: grid;
@@ -226,6 +223,7 @@ footer p {
 
 footer .box3 {
     gap: 1em;
+    text-align: right;
 }
 
 
@@ -234,7 +232,12 @@ footer .box3 {
     margin: auto;
 }
 
-.f_home {
+.box1 {
+    text-align: left;
+}
+
+.f_home,
+footer a {
     color: white;
 }
 
@@ -309,6 +312,7 @@ hr {
     width: 20px;
     height: 30px;
     margin: auto;
+    color:
 } 
 
 .inner section {
@@ -376,7 +380,7 @@ a h4 {
 }
 
 a h4:hover {
-    background-color: var(--footer);
+    background-color: rgba(var(--footer));
 }
 
 
@@ -463,7 +467,7 @@ h1, h2, h3 {
 
 .button:hover {
     font-size: 1.2em;
-    background-color: var(--footer);
+    background-color: rgba(var(--footer));
 }
 
 #load-more {
