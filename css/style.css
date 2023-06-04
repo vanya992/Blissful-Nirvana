@@ -565,11 +565,7 @@ h1, h2, h3 {
         font-size: .8em;
     }
 }
-@media (min-width: 946px) and (max-width: 1179px) {
-    body {
-        width: 80%; 
-    }
-}
+
 @media (min-width: 951px) {
 
     body {
