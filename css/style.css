@@ -649,7 +649,7 @@ h1, h2, h3 {
 }
 
 @media (min-width: 1206px) and (max-width: 1600px) {
-    .card {
+    .wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
