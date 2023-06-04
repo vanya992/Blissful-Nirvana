@@ -498,7 +498,7 @@ h1, h2, h3 {
 
 .img_modal {
     width: 500px;
-    height: 400px;
+    height: auto;
     position: relative;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
