@@ -237,8 +237,12 @@ footer .box3 {
 }
 
 .f_home,
-footer a {
+.f_home a {
     color: white;
+}
+
+.down {
+    text-align: center;
 }
 
 hr {
