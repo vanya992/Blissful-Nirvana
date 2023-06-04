@@ -34,7 +34,7 @@ async function detailed() {
           <h4>Read More</h4></a>
       </div>
       <div class="card">
-        <a href="blogspecific.html?id=${post[3].id}>"<img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/yoga2-scaled.jpg" class="slide_img" alt="yoga style, yoga pose">
+        <a href="blogspecific.html?id=${post[3].id}"><img src="https://blissfulnirvana.simplygreat.no/wp-content/uploads/2023/05/yoga2-scaled.jpg" class="slide_img" alt="yoga style, yoga pose">
           <h3>${post[3].title.rendered}</h3>
           <h4>Read More</h4></a>
       </div>
