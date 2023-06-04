@@ -451,6 +451,7 @@ h1, h2, h3 {
     font-size: 1.2em;
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 
@@ -488,7 +489,7 @@ h1, h2, h3 {
 
 #load-more:hover {
     font-size: 2.3em;
-    background-color: var(--slogan);
+    background-color: rgba(var(--footer));
 }
 
 .sp_blog {
