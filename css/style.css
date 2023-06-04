@@ -490,7 +490,10 @@ h1, h2, h3 {
 .sp_blog img {
     margin: auto;
     align-content: center;
-    
+}
+
+.modal-body {
+    position: relative;
 }
 
 
