@@ -259,7 +259,7 @@ hr {
     position: absolute;
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0, .9);
+    background-color: rgba(0, 0, 0, .3);
     color:rgba(var(--footer));
     font-size: 3em;
     width: 100%;
