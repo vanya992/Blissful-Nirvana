@@ -19,8 +19,9 @@ async function displayPosts() {
             const featuredMedia = postItem._embedded["wp:featuredmedia"][0];
             const imageUrl = featuredMedia.media_details.sizes.medium.source_url;
             const title = postItem.title.rendered;
+            const alt = postItem.featuredMedia.alt_text;
       
-            blogDisplay.innerHTML += `<div class="blog-box"><img src="${imageUrl}" class="slide_img"><h3>${title}</h3><a href="blogspecific.html?id=${postItem.id}"<h4 class="button">Read More</h4><a/></div>`;
+            blogDisplay.innerHTML += `<div class="blog-box"><img src="${imageUrl}" class="slide_img" alt="${alt}"><h3>${title}</h3><a href="blogspecific.html?id=${postItem.id}"<h4 class="button">Read More</h4><a/></div>`;
           }
         
     }
