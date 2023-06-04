@@ -497,6 +497,10 @@ h1, h2, h3 {
     width: 100%;
 }
 
+.modal-body nav {
+    width: 70%;
+}
+
 
 /* MODAL */
 
@@ -515,7 +519,7 @@ h1, h2, h3 {
     top: 0; left: 0;
     background-color: rgba(0, 0, 0, .9);
     height: 100%;
-    width: 70%;
+    width: 100%;
     z-index: 100;
     display: none;
 }
