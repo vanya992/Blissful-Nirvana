@@ -2,46 +2,37 @@
 
 ![image](images/blissfulnirvana.png)
 
-A simple overview of the use/purpose of the project.
+This project is made to inform about different types of yoga.
 
 ## Description
-
-Add a more detailed description of what your project entails and set out to do.
-
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+The Blissful Nirvana project aims to inform people that are interested in yoga about many of its different styles. It covers enough to inform as well those that know nothing about yoga. Images that are displayed should show some of the poses that specific styles include.
 
 ## Built With
 
-You can list a the tech stack that you've used over here
+This project has been made interactiv, and for that I have been using:
 
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- HTML(https://developer.mozilla.org/en-US/docs/Web/HTML)
+- CSS (https://developer.mozilla.org/en-US/docs/Web/CSS)
+- JavaScript (https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- WordPress REST API(https://developer.wordpress.org/rest-api/)
 
 ## Getting Started
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git clone git@github.com:vanya992/Blissful-Nirvana.git
 ```
 
 2. Install the dependencies:
 
-```
+```bash
 npm install
 ```
 
 ### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
 
 To run the app, run the following commands:
 
