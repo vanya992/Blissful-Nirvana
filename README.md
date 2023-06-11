@@ -45,16 +45,7 @@ npm run start
 Feel free to open a disscusion about changes you would like to make to this project.
 
 ## Contact
-You can find me on this links:
 
 
+You can contact me through my linkedin profile: (https://www.linkedin.com/in/vladimira-dmitrovic-090183249/);
 
-[My LinkedIn page]([www.linkedin.com](https://www.linkedin.com/in/vladimira-dmitrovic-090183249/])
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
