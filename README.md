@@ -42,15 +42,14 @@ npm run start
 
 ## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+Feel free to open a disscusion about changes you would like to make to this project.
 
 ## Contact
+You can find me on this links:
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-[My Twitter page](www.twitter.com)
 
-[My LinkedIn page](www.linkedin.com)
+[My LinkedIn page]([www.linkedin.com](https://www.linkedin.com/in/vladimira-dmitrovic-090183249/])
 
 ## License
 
